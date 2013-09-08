@@ -19,6 +19,7 @@
     android:id="@+id/edit_event"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_holo_dark"
     style="@style/EditEvent_Layout"
     android:paddingLeft="0dip">
     <TextView
@@ -34,7 +35,7 @@
         android:layout_marginRight="20dip"
         android:layout_marginTop="12dip"
         android:layout_marginBottom="12dip"
-        android:background="#FFFFFFFF"/>
+        android:background="@color/transparent"/>
 
     <ScrollView
         android:id="@+id/scroll_view"
@@ -46,7 +47,7 @@
         android:visibility="gone">
 
         <FrameLayout
-            android:background="#FFEEEEEE"
+            android:background="@color/transparent"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -58,7 +59,7 @@
                 android:layout_marginTop="3dip"
                 android:layout_marginBottom="12dip"
                 android:layout_gravity="center_horizontal|top"
-                android:background="#FFFFFFFF"/>
+                android:background="@color/transparent"/>
 
             <LinearLayout
                 android:id="@+id/two_pane"
